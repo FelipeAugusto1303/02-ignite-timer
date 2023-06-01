@@ -1,8 +1,8 @@
-import { useState } from "react";
-import { Button } from "./components/Button";
-import { ThemeProvider } from "styled-components";
-import { defaultTheme } from "./styles/themes/default";
-import { GlobalStyle } from "./styles/global";
+import React from 'react'
+import { Button } from './components/Button'
+import { ThemeProvider } from 'styled-components'
+import { defaultTheme } from './styles/themes/default'
+import { GlobalStyle } from './styles/global'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Button />
       <GlobalStyle />
     </ThemeProvider>
-  );
+  )
 }
 
-export default App;
+export default App
